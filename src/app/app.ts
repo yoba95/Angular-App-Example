@@ -10,6 +10,9 @@ import { Counter } from "./counter/counter";
 })
 export class App {
   protected readonly title = signal('Hola Mundo');
+
+  subTitle = 'Contador con estado de sesion';
+
   users: string [] = ['pepe','juan','luis', 'carlos'];
   //users?: string [];
   visible : boolean = false;
